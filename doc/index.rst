@@ -3,20 +3,33 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to 3DTrackerFAB-doc's documentation!
-============================================
+===========================
+3DTracker-FAB documentation
+===========================
 
-test.
+Author: Jumpei, Marcelo
+
+Introduction
+============
+
+blah blah blah 
+
+Index
+=====
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :numbered:
+   
+   01
+   02
+   03
+   04
+   05
+   06
+   07
+   08
+   09
 
 
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
