@@ -3,11 +3,29 @@ Software preparation
 ====================
 
 
-test1
-=====
+Installing 3rd party libraries
+==============================
+The 3DTracker-FAB utilizes functions of many free software libraries. Please download and install the software below. You can download the software from our website at  http://3dtracker.org/downloads.html
 
-test2
-=====
+1. OpenCV 3.2.0 (library for image processing)
+2. PCL 1.8.0 (library for point cloud processing) 
+3. Visual C++ 2015 redistributable (library for running the software that was written on Visual Studio C++ 2015) 
+4. Kinect for Windows Runtime v1.8 (library for Kinect v1 camera and backward compatibility) 
 
-test3
-=====
+.. warning::
+    **DO NOT install the R200 driver** provided by Intel because the 3DTracker doesn’t need it. Also, some users have reported that updating the R200 firmware could trigger the malfunctioning of the R200 (see https://github.com/IntelRealSense/librealsense/issues/163; https://github.com/IntelRealSense/librealsense/issues/429).
+
+After installing the libraries above, add the following folder to the environment variable "PATH":
+C:\opencv320\build\x64\vc14\bin (change "C:\opencv320", to your install directory)
+C:\Program Files\PCL 1.8.0\bin
+C:\Program Files\OpenNI2\Redist
+See how to add directories to the “PATH”: https://www.computerhope.com/issues/ch000549.htm
+
+
+Installing main programs of the 3DTracker-FAB
+=============================================
+Download the prebuilt version of the 3DTracker-FAB from the website http://3dtracker.org/downloads.html
+Uncompress the downloaded zip file. The extracted folder contains the software and data folder.  
+
+.. hint::
+    Because recorded data will be initially saved in the data folder, it is recommended to place the extracted data folder in a large HDD. 

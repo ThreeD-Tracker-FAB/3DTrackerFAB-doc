@@ -2,12 +2,16 @@
 Other software usage
 ====================
 
+Viewer
+======
 
-test1
-=====
+The software can be used as a viewer to check the recorded data but without the fitting functions. To open the data in Viewer, no pre-processing is necessary. 
 
-test2
-=====
+Data analysis scripts (Python / MATLAB)
+=======================================
 
-test3
-=====
+*These scripts are in preparation*.
+
+These scripts will be for analyzing the trajectory data (csv files exported from the Tracker) and the original point cloud data. 
+
+We encourage people to share their own scripts. Please let us know through the forum (https://groups.google.com/forum/#!forum/3dtracker) or the contact form (http://3dtracker.org/contact.html) if you have a useful code you would like to share. Also, you can find the old MATLAB scripts that were previously published with our paper, Matsumoto et al., 2013, (http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0078460#s6). Even though these old scripts cannot be directly used with the new data format, they would be a good starting point to write your own codes.
