@@ -5,7 +5,7 @@ Information for developers
 Preparing the development environment
 =====================================
 
-Use Visual Studio 2017 (https://www.visualstudio.com/) for the IDE.
+Use Visual Studio 2017 for the IDE.
 
 First, download and install following libraries (You can download our website at  http://3dtracker.org/downloads.html):
 
