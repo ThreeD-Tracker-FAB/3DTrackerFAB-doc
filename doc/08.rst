@@ -2,6 +2,26 @@
 Information for developers
 ==========================
 
-*Coming soon…*
+Preparing the development environment
+=====================================
 
+Use Visual Studio 2017 (https://www.visualstudio.com/) for the IDE.
+
+First, download and install following libraries (You can download our website at  http://3dtracker.org/downloads.html):
+
+1. OpenCV 3.2.0 (library for image processing)
+2. PCL 1.8.0 (library for point cloud processing) 
+3. Kinect for Windows SDK v1.8 (library for Kinect v1 camera and backward compatibility) 
+4. 3DTracker Developer Tools (= librealsense, intel realsense camera library; Bullet physics, physics simulation library; freeglut, free opengl utility toolkit)
+5. (optional) NIDAQmx (National instrument device library; used for TTL signal)
+
+Second, add the following folder to the environment variable "PATH":
+
+- C:\\Program Files\\3DTrackerDevTools\\bin
+- C:\\opencv320\\build\\x64\\vc14\\bin
+- C:\\Program Files\\PCL 1.8.0\\bin
+- C:\\Program Files\\OpenNI2\\Redist
+
+More Information
+================
 Contact us through the forum (https://groups.google.com/forum/#!forum/3dtracker).
