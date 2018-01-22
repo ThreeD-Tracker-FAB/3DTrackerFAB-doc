@@ -16,9 +16,11 @@ The 3DTracker-FAB utilizes functions of many free software libraries. Please dow
     **DO NOT install the R200 driver** provided by Intel because the 3DTracker doesn’t need it. Also, some users have reported that updating the R200 firmware could trigger the malfunctioning of the R200 (see https://github.com/IntelRealSense/librealsense/issues/163; https://github.com/IntelRealSense/librealsense/issues/429).
 
 After installing the libraries above, add the following folder to the environment variable "PATH":
-C:\opencv320\build\x64\vc14\bin (change "C:\opencv320", to your install directory)
-C:\Program Files\PCL 1.8.0\bin
-C:\Program Files\OpenNI2\Redist
+
+- C:\\opencv320\\build\\x64\\vc14\\bin (change "C:\\opencv320", to your install directory)
+- C:\\Program Files\\PCL 1.8.0\\bin
+- C:\\Program Files\\OpenNI2\\Redist
+
 See how to add directories to the “PATH”: https://www.computerhope.com/issues/ch000549.htm
 
 
