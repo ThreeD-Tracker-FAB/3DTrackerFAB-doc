@@ -7,7 +7,7 @@ Preparing the development environment
 
 Use Visual Studio 2017 for the IDE.
 
-First, download and install following libraries (You can download our website at  http://3dtracker.org/downloads.html):
+First, download and install following libraries (You can download from our website at  http://3dtracker.org/downloads.html):
 
 1. OpenCV 3.2.0 (library for image processing)
 2. PCL 1.8.0 (library for point cloud processing) 
@@ -25,9 +25,7 @@ Second, add the following folder to the environment variable "PATH":
 Programming Style
 =================
 
-Basically follow:
-https://google.github.io/styleguide/cppguide.html
-
+Basically follow https://google.github.io/styleguide/cppguide.html
 
 More Information
 ================
