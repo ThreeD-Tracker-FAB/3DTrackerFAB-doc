@@ -22,8 +22,9 @@ Second, add the following folder to the environment variable "PATH":
 - C:\\Program Files\\PCL 1.8.0\\bin
 - C:\\Program Files\\OpenNI2\\Redist
 
-Coding Style
-============
+Programming Style
+=================
+
 Basically follow:
 https://google.github.io/styleguide/cppguide.html
 
